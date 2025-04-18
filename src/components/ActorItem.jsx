@@ -29,19 +29,19 @@ const ActorItem = ({ id, name, description, domain, type, establishedDate, logo,
                             <h2 className='ml-2 text-lg font-semibold cursor-pointer'>{name}</h2>
                         </div>
                         <div className='flex flex-col'>
-                            <InfoRow label="Type" value={Array.isArray(type) ? type.join(', ') : type} />
-                            <InfoRow label="Domaine" value={Array.isArray(domain) ? domain.join(', ') : domain} />
+                            <InfoRow label="Type " value={Array.isArray(type) ? type.join(', ') : type} />
+                            <InfoRow label="Domaine d'activité" value={Array.isArray(domain) ? domain.join(', ') : domain} />
                             {!isCollectiviteTerritoriale && (
                                 <>
-                                    <InfoRow label="Dirigeant(e)" value={dirigeant} />
+                                    <InfoRow label="Dirigeant(e) " value={dirigeant} />
                                 </>
                             )}
                             {!isAssociation && (
                                 <InfoRow label="Contact" value={contact} />
                             )}
-                            <InfoRow label="Email" value={email} />
-                            <InfoRow label="Téléphone" value={telephone} />
-                            <InfoRow label="Site internet" value={website} isLink={false} />
+                            <InfoRow label="Email " value={email} />
+                            <InfoRow label="Téléphone " value={telephone} />
+                            <InfoRow label="Site internet " value={website} isLink={false} />
                         </div>
                     </div>
                 </Link>

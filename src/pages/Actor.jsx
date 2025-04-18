@@ -40,7 +40,7 @@ const Actor = () => {
         <div className="flex-1">
           {!Array.isArray(actorData.type) || !actorData.type.includes('Collectivité territoriale') ? (
             <p className="mt-5 text-gray-500 md:w-4/5">
-              Domaine : {Array.isArray(actorData.domain) ? actorData.domain.join(', ') : actorData.domain}
+              Domaine d'activité : {Array.isArray(actorData.domain) ? actorData.domain.join(', ') : actorData.domain}
             </p>
           ) : null}
           <p className="mt-5 text-3xl font-medium">
