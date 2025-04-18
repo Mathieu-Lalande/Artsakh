@@ -40,7 +40,7 @@ const Project = () => {
         </div>
         <div className="flex-1">
           <p className="mt-5 text-gray-500 md:w-4/5">
-            Association: {projectData.association}
+            Association : {projectData.association}
           </p>
           <p className="mt-5 text-xl font-medium">
             {projectData.type} depuis le {new Date(projectData.startDate).toLocaleDateString()} jusqu'à {new Date(projectData.endDate).toLocaleDateString()}.

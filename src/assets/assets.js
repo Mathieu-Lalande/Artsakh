@@ -106,182 +106,181 @@ export const assets = {
 }
 
 export const acteurs = [
-    // Type dacteurs "Association" | "Collectivité territoriale" | "Institution"
+  // Type dacteurs "Association" | "Collectivité territoriale" | "Institution"
 
 
-    //**{
-    //    _id: "1",
-    //    name: "Croix-Rouge Française",
-    //    description: "Association humanitaire qui offre des secours d'urgence, actions sociales, santé, et formation aux premiers secours en France.",
-    //    domain: ["Logement", "Education", "Social", "Santé", "Formation/Emploi"],
-    //    type: ["Institution"],
-    //    establishedDate: 1864,
-    //    website: "https://www.croix-rouge.fr",
-    //    logo: logo_Croix_Rouge_Française
-    //},
-
-    {
-        _id: "2",
-        name: "Fonds Arménien de France",
-        description: "Le Fonds Arménien de France intervient dans le domaine humanitaire, avec un accent particulier sur : La région Tavouch : Développement agro-pastoral et les régions frontalières : Développement agricole et aide aux réfugiés",
-        domain: ["Logement", "Education", "Social", "Formation/Emploi", "Agriculture"],
-        type: ["Association"],
-        establishedDate: 1993,
-        website: "https://fondsarmenien.org/",
-        logo: fadf,
-        dirigeant: "Pierre Terzian",
-        email: "info@fondsarmenien.org",
-        telephone: "01 48 83 51 06",
-        contact: "Pierre Terzian"
-    },
-    {
-        _id: "3",
-        name: "UGAB",
-        description: "L'UGAB a toujours joué un rôle essentiel dans l'histoire du peuple arménien. Depuis notre création en 1906, nous sommes restés fidèles à la vision de nos fondateurs en poursuivant notre mission à travers les décennies : œuvrer à la prospérité et au bien-être de tous les Arméniens. De manière générale, l’UGAB s'engage au quotidien pour développer et assurer la prospérité de l'Arménie, en créant des initiatives en faveur des industries, des individus et des communautés. Nous faisons le lien entre la diaspora et l’Arménie en proposant de nombreuses opportunités de collaboration et d’engagement. Nous avons des programmes d’éducation, de culture, d’aide humanitaire et de développement socio-économique s’adressant à toutes les tranches d’âge, dans toutes les régions d’Arménie et en diaspora.",
-        domain: ["Logement", "Education", "Social", "Santé", "Formation/Emploi"],
-        type: ["Association"],
-        establishedDate: 1948,
-        website: "https://ugabfrance.org/fr",
-        logo: ugab,
-        dirigeant: "Claude Nadia Gortzounian",
-        email: "administratif@agbu.org",
-        telephone: "01 45 20 03 18",
-        contact: "Claude Nadia Gortzounian"
-    },
-    {
-        _id: "4",
-        name: "Santé Arménie",
-        description: "Santé Arménie à pour mission d'apporter une aide médicale directe à la population arménienne à travers : Soins médicaux : Équipes mobiles et centres spécialisés. Formation : Académie médicale en ligne pour les professionnels de santé. Recherche clinique : Amélioration des pratiques médicales et traitements. Infrastructure : Construction et équipement des établissements de santé en Arménie.",
-        domain: ["Formation/Emploi", "Santé"],
-        type: ["Association"],
-        establishedDate: 2021,
-        website: "https://www.santearmenie.org/",
-        logo: Logo_Sante_Armenie,
-        dirigeant: "Arsène Mekinian",
-        email: "contact@santearmenie.org",
-        telephone: "01 45 24 72 79",
-        contact: "Arsène Mekinian"
-    },
-    {
-        _id: "5",
-        name: "Chene",
-        description: "Nous intervenons dans la construction et la réhabilitation de maisons, d'écoles maternelles et d'équipements collectifs, tout en soutenant le développement du tissu socio-économique et agricole. Nous répondons également aux besoins d'urgence humanitaire.",
-        domain: ["Logement", "Agriculture", "Education", "Social"],
-        type: ["Association"],
-        establishedDate: 1990,
-        website: "https://www.chene-france.org/",
-        logo: Logo_CHENE,
-        dirigeant: "Schavarch Torossian",
-        email: "contact@chene-france.org",
-        telephone: "",
-        contact: "Schavarch Torossian"
-    },
-    {
-        _id: "6",
-        name: "Ville de Lyon",
-        description: "Collectivité territoriale qui soutient des projets de développement et de solidarité internationale.",
-        domain: [""],
-        type: ["Collectivité territoriale"],
-        website: "https://www.lyon.fr/",
-        logo: ville_lyon,
-        dirigeant: "Grégory Doucet",
-        email: "roxane.beneyton@mairie-lyon.fr",
-        telephone: "",
-        contact: "Roxane Beneyton"
-    },
-    {
-        _id: "7",
-        name: "Département de l'Isère",
-        description: "Collectivité territoriale qui soutient des projets de développement et de solidarité internationale.",
-        domain: [""],
-        type: ["Collectivité territoriale"],
-        website: "https://www.isere.fr/",
-        logo: Dep_isere,
-        dirigeant: "Suzie Grenèche",
-        email: "suzie.greneche@isere.fr",
-        telephone: "",
-        contact: "Suzie Grenèche"
-    },
-    {
-        _id: "8",
-        name: "Ville de Joeuf",
-        description: "Collectivité territoriale qui soutient des projets de développement et de solidarité internationale.",
-        domain: [""],
-        type: ["Collectivité territoriale"],
-        website: "https://www.ville-joeuf.fr/",
-        logo: joeuf,
-        dirigeant: "Maria Abiza",
-        email: "cabinet.maire@ville-joeuf.fr",
-        telephone: "",
-        contact: "Maria Abiza"
-    },
-    {
-        _id: "9",
-        name: "Région Auvergne Rhône Alpes",
-        description: "Collectivité territoriale qui soutient des projets de développement et de solidarité internationale.",
-        domain: [""],
-        type: ["Collectivité territoriale"],
-        website: "https://www.auvergnerhonealpes.fr/",
-        logo: rara_logo,
-        dirigeant: "Fabrice Pannekoucke",
-        email: "agnes.hernu@auvergnerhonealpes.fr",
-        telephone: "04 26 73 40 69",
-        contact: "Agnès Hernu-Duclos"
-    },
-    {
-        _id: "10",
-        name: "Commune de Gardanne ",
-        description: "Collectivité territoriale qui soutient des projets de développement et de solidarité internationale.",
-        domain: [""],
-        type: ["Collectivité territoriale"],
-        website: "https://www.ville-gardanne.fr/",
-        logo: Logo_Gardanne,
-        dirigeant: "Fabrice Pannekoucke",
-        email: "arnaud-mazille@ville-gardanne.fr",
-        telephone: "07 88 35 93 93",
-        contact: "Arnaud Mazille"
-    },
-    {
-        _id: "11",
-        name: "Ville de Saint-Etienne ",
-        description: "Collectivité territoriale qui soutient des projets de développement et de solidarité internationale.",
-        domain: [""],
-        type: ["Collectivité territoriale"],
-        website: "https://www.saint-etienne.fr",
-        logo: stetienne,
-        dirigeant: "Gaël Perdriau",
-        email: "sona.hedhibi@saint-etienne-metropole.fr",
-        telephone: "04 77 48 63 65",
-        contact: "Sona Hedhibi"
-    },
-    {
-        _id: "12",
-        name: "Union Franco-Arménienne",
-        description: "Notre association vise à préserver, promouvoir et intégrer avec succès la culture arménienne en France, tout en développant des échanges culturels, en organisant des événements culturels et caritatifs et en mettant en œuvre des projets humanitaires, sportifs et éducatifs en France et en Arménie.",
-        domain: ["Education", "Social", "Culture"],
-        type: ["Association"],
-        website: "https://www.unionfrarm.com",
-        logo: LogoUnionfrarm,
-        establishedDate: 2021,
-        dirigeant: "Artur Arzoyan",
-        email: "contact@unionfrarm.com",
-        telephone: "+33 (0)6 95 14 77 67",
-        contact: "Artur Arzoyan"
-    },
-    {
-        _id: "13",
-        name: "Croix Bleue des Arméniens de France",
-        description: "La Croix Bleue des Arméniens de France agit dans les domaines de l’humanitaire, du social et de la culture...",
-        domain: ["Logement", "Social", "Santé"],
-        type: ["Association"],
-        website: "https://www.croixbleue-france.com/",
-        logo: croix_bleue,
-        establishedDate: 1928,
-        dirigeant: "Corinne Sévane Mardirossian",
-        email: "cbaf@wanadoo.fr",
-        telephone: "+33 (0)1 53 34 18 18",
-        contact: "Corinne Sévane Mardirossian"
-    },
+  //**{
+  //    _id: "1",
+  //    name: "Croix-Rouge Française",
+  //    description: "Association humanitaire qui offre des secours d'urgence, actions sociales, santé, et formation aux premiers secours en France.",
+  //    domain: ["Logement", "Education", "Social", "Santé", "Formation/Emploi"],
+  //    type: ["Institution"],
+  //    establishedDate: 1864,
+  //    website: "https://www.croix-rouge.fr",
+  //    logo: logo_Croix_Rouge_Française
+  //},
+  {
+    _id: "2",
+    name: "Fonds Arménien de France",
+    description: "Le Fonds Arménien de France intervient dans le domaine humanitaire, avec un accent particulier sur : La région Tavouch : Développement agro-pastoral et les régions frontalières : Développement agricole et aide aux déplacés.",
+    domain: ["Logement", "Education", "Social", "Formation/Emploi", "Agriculture"],
+    type: ["Association"],
+    establishedDate: 1993,
+    website: "https://fondsarmenien.org/",
+    logo: fadf,
+    dirigeant: "Pierre Terzian",
+    email: "info@fondsarmenien.org",
+    telephone: "01 48 83 51 06",
+    contact: "Pierre Terzian"
+  },
+  {
+    _id: "3",
+    name: "UGAB",
+    description: "L'UGAB a toujours joué un rôle essentiel dans l'histoire du peuple arménien. Depuis sa création en 1906, elle est restée fidèle à la vision de ses fondateurs en poursuivant sa mission à travers les décennies : œuvrer à la prospérité et au bien-être de tous les Arméniens. De manière générale, l’UGAB s'engage au quotidien pour développer et assurer la prospérité de l'Arménie, en créant des initiatives en faveur des industries, des individus et des communautés. Elle fait le lien entre la diaspora et l’Arménie en proposant de nombreuses opportunités de collaboration et d’engagement. Elle propose des programmes d’éducation, de culture, d’aide humanitaire et de développement socio-économique s’adressant à toutes les tranches d’âge, dans toutes les régions d’Arménie et en diaspora.",
+    domain: ["Logement", "Education", "Social", "Santé", "Formation/Emploi"],
+    type: ["Association"],
+    establishedDate: 1948,
+    website: "https://ugabfrance.org/fr",
+    logo: ugab,
+    dirigeant: "Claude Nadia Gortzounian",
+    email: "administratif@agbu.org",
+    telephone: "01 45 20 03 18",
+    contact: "Claude Nadia Gortzounian"
+  },
+  {
+    _id: "4",
+    name: "Santé Arménie",
+    description: "Santé Arménie a pour mission d'apporter une aide médicale directe à la population arménienne à travers : Soins médicaux : Équipes mobiles et centres spécialisés. Formation : Académie médicale en ligne pour les professionnels de santé. Recherche clinique : Amélioration des pratiques médicales et traitements. Infrastructure : Construction et équipement des établissements de santé en Arménie.",
+    domain: ["Formation/Emploi", "Santé"],
+    type: ["Association"],
+    establishedDate: 2021,
+    website: "https://www.santearmenie.org/",
+    logo: Logo_Sante_Armenie,
+    dirigeant: "Arsène Mekinian",
+    email: "contact@santearmenie.org",
+    telephone: "01 45 24 72 79",
+    contact: "Arsène Mekinian"
+  },
+  {
+    _id: "5",
+    name: "Chene",
+    description: "Chene intervient dans la construction et la réhabilitation de maisons, d'écoles maternelles et d'équipements collectifs, tout en soutenant le développement du tissu socio-économique et agricole. Elle répond également aux besoins d'urgence humanitaire.",
+    domain: ["Logement", "Agriculture", "Education", "Social"],
+    type: ["Association"],
+    establishedDate: 1990,
+    website: "https://www.chene-france.org/",
+    logo: Logo_CHENE,
+    dirigeant: "Schavarch Torossian",
+    email: "contact@chene-france.org",
+    telephone: "",
+    contact: "Schavarch Torossian"
+  },
+  {
+    _id: "6",
+    name: "Ville de Lyon",
+    description: "La Ville de Lyon est une collectivité territoriale qui soutient des projets de développement et de solidarité internationale.",
+    domain: [""],
+    type: ["Collectivité territoriale"],
+    website: "https://www.lyon.fr/",
+    logo: ville_lyon,
+    dirigeant: "Grégory Doucet",
+    email: "roxane.beneyton@mairie-lyon.fr",
+    telephone: "",
+    contact: "Roxane Beneyton"
+  },
+  {
+    _id: "7",
+    name: "Département de l'Isère",
+    description: "Le Département de l'Isère est une collectivité territoriale qui soutient des projets de développement et de solidarité internationale.",
+    domain: [""],
+    type: ["Collectivité territoriale"],
+    website: "https://www.isere.fr/",
+    logo: Dep_isere,
+    dirigeant: "Jean-Pierre Barbier",
+    email: "suzie.greneche@isere.fr",
+    telephone: "04 76 00 38 38",
+    contact: "Suzie Grenèche"
+  },
+  {
+    _id: "8",
+    name: "Ville de Joeuf",
+    description: "La Ville de Joeuf est une collectivité territoriale qui soutient des projets de développement et de solidarité internationale.",
+    domain: [""],
+    type: ["Collectivité territoriale"],
+    website: "https://www.ville-joeuf.fr/",
+    logo: joeuf,
+    dirigeant: "Maria Abiza",
+    email: "cabinet.maire@ville-joeuf.fr",
+    telephone: "",
+    contact: "Maria Abiza"
+  },
+  {
+    _id: "9",
+    name: "Région Auvergne Rhône Alpes",
+    description: "La Région Auvergne Rhône Alpes est une collectivité territoriale qui soutient des projets de développement et de solidarité internationale.",
+    domain: [""],
+    type: ["Collectivité territoriale"],
+    website: "https://www.auvergnerhonealpes.fr/",
+    logo: rara_logo,
+    dirigeant: "Fabrice Pannekoucke",
+    email: "agnes.hernu@auvergnerhonealpes.fr",
+    telephone: "04 26 73 40 69",
+    contact: "Agnès Hernu-Duclos"
+  },
+  {
+    _id: "10",
+    name: "Commune de Gardanne",
+    description: "La Commune de Gardanne est une collectivité territoriale qui soutient des projets de développement et de solidarité internationale.",
+    domain: [""],
+    type: ["Collectivité territoriale"],
+    website: "https://www.ville-gardanne.fr/",
+    logo: Logo_Gardanne,
+    dirigeant: "Hervé Granier",
+    email: "arnaud-mazille@ville-gardanne.fr",
+    telephone: "07 88 35 93 93",
+    contact: "Arnaud Mazille"
+  },
+  {
+    _id: "11",
+    name: "Ville de Saint-Etienne",
+    description: "La Ville de Saint-Etienne est une collectivité territoriale qui soutient des projets de développement et de solidarité internationale.",
+    domain: [""],
+    type: ["Collectivité territoriale"],
+    website: "https://www.saint-etienne.fr",
+    logo: stetienne,
+    dirigeant: "Gaël Perdriau",
+    email: "sona.hedhibi@saint-etienne-metropole.fr",
+    telephone: "04 77 48 63 65",
+    contact: "Sona Hedhibi"
+  },
+  /*{
+    _id: "12",
+    name: "Union Franco-Arménienne",
+    description: "L'Union Franco-Arménienne vise à préserver, promouvoir et intégrer avec succès la culture arménienne en France, tout en développant des échanges culturels, en organisant des événements culturels et caritatifs et en mettant en œuvre des projets humanitaires, sportifs et éducatifs en France et en Arménie.",
+    domain: ["Education", "Social", "Culture"],
+    type: ["Association"],
+    website: "https://www.unionfrarm.com",
+    logo: LogoUnionfrarm,
+    establishedDate: 2021,
+    dirigeant: "Artur Arzoyan",
+    email: "contact@unionfrarm.com",
+    telephone: "+33 (0)6 95 14 77 67",
+    contact: "Artur Arzoyan"
+  },*/
+  {
+    _id: "13",
+    name: "Croix Bleue des Arméniens de France",
+    description: "La Croix Bleue des Arméniens de France agit dans les domaines de l’humanitaire, du social et de la culture.",
+    domain: ["Logement", "Social", "Santé"],
+    type: ["Association"],
+    website: "https://www.croixbleue-france.com/",
+    logo: croix_bleue,
+    establishedDate: 1928,
+    dirigeant: "Corinne Sévane Mardirossian",
+    email: "cbaf@wanadoo.fr",
+    telephone: "+33 (0)1 53 34 18 18",
+    contact: "Corinne Sévane Mardirossian"
+  },
 ];
 
 export const projets = [
@@ -339,9 +338,7 @@ export const regions = [
       { name: 'Union franco-arménienne', domain: ["Education", "Social", "Culture"], },
       { name: 'Fonds Arménien de France', domain: ["Logement", "Education", "Social", "Formation/Emploi", "Agriculture"], },
       { name: 'UGAB', domain: ["Logement", "Education", "Social", "Santé", "Formation/Emploi"], },
-    ], 
-    laws: ['Loi sur la protection des réfugiés (2015)', 'Loi sur l’aide humanitaire (2018)'],
-    domains: ['Santé', 'Social', 'Logement']
+    ],
   },
   { 
     id: '2', 
@@ -353,8 +350,6 @@ export const regions = [
       { name: 'Fonds Arménien de France', domain: ["Logement", "Education", "Social", "Formation/Emploi", "Agriculture"], },
       { name: 'UGAB', domain: ["Logement", "Education", "Social", "Santé", "Formation/Emploi"], },
     ],
-    laws: ['Loi sur le logement social (2017)', 'Loi sur la réhabilitation post-conflit (2020)'],
-    domains: ['Logement', 'Social', 'Formation/Emploi']
   },
   { 
     id: '3', 
@@ -365,9 +360,7 @@ export const regions = [
       { name: 'Union franco-arménienne', domain: ["Education", "Social", "Culture"], },
       { name: 'Fonds Arménien de France', domain: ["Logement", "Education", "Social", "Formation/Emploi", "Agriculture"], },
       { name: 'UGAB', domain: ["Logement", "Education", "Social", "Santé", "Formation/Emploi"], },
-    ],    
-    laws: ['Loi sur l’éducation des enfants déplacés (2019)', 'Loi sur la formation professionnelle (2021)'],
-    domains: ['Education', 'Social', 'Agriculture']
+    ],
   },
   { 
     id: '4', 
@@ -377,9 +370,7 @@ export const regions = [
       { name: 'Union franco-arménienne', domain: ["Education", "Social", "Culture"], },
       { name: 'Fonds Arménien de France', domain: ["Logement", "Education", "Social", "Formation/Emploi", "Agriculture"], },
       { name: 'UGAB', domain: ["Logement", "Education", "Social", "Santé", "Formation/Emploi"], },
-    ],    
-    laws: ['Loi sur la sécurité alimentaire (2016)', 'Loi sur l’aide aux familles vulnérables (2019)'],
-    domains: ['Santé', 'Social', 'Agriculture']
+    ],
   },
   { 
     id: '5', 
@@ -389,9 +380,7 @@ export const regions = [
       { name: 'Union franco-arménienne', domain: ["Education", "Social", "Culture"], },
       { name: 'Fonds Arménien de France', domain: ["Logement", "Education", "Social", "Formation/Emploi", "Agriculture"], },
       { name: 'UGAB', domain: ["Logement", "Education", "Social", "Santé", "Formation/Emploi"], },
-    ],    
-    laws: ['Loi sur la santé mentale (2018)', 'Loi sur la protection des enfants (2020)'],
-    domains: ['Santé', 'Social', 'Education']
+    ],
   },
   { 
     id: '6', 
@@ -403,8 +392,6 @@ export const regions = [
       { name: 'Fonds Arménien de France', domain: ["Logement", "Education", "Social", "Formation/Emploi", "Agriculture"], },
       { name: 'UGAB', domain: ["Logement", "Education", "Social", "Santé", "Formation/Emploi"], },
     ],    
-    laws: ['Loi sur la réintégration des réfugiés (2021)', 'Loi sur le développement communautaire (2019)'],
-    domains: ['Logement', 'Social', 'Formation/Emploi']
   },
   { 
     id: '7', 
@@ -416,8 +403,6 @@ export const regions = [
       { name: 'Fonds Arménien de France', domain: ["Logement", "Education", "Social", "Formation/Emploi", "Agriculture"], },
       { name: 'UGAB', domain: ["Logement", "Education", "Social", "Santé", "Formation/Emploi"], },
     ],    
-    laws: ['Loi sur la santé publique (2017)', 'Loi sur l’aide psychologique (2020)'],
-    domains: ['Santé', 'Social', 'Logement']
   },
   { 
     id: '8', 
@@ -430,8 +415,6 @@ export const regions = [
       { name: 'Fonds Arménien de France', domain: ["Logement", "Education", "Social", "Formation/Emploi", "Agriculture"], },
       { name: 'UGAB', domain: ["Logement", "Education", "Social", "Santé", "Formation/Emploi"], },
     ],
-    laws: ['Loi sur l’emploi des réfugiés (2019)', 'Loi sur la formation professionnelle (2021)'],
-    domains: ['Education', 'Social', 'Formation/Emploi']
   },
   { 
     id: '9', 
@@ -442,8 +425,6 @@ export const regions = [
       { name: 'Fonds Arménien de France', domain: ["Logement", "Education", "Social", "Formation/Emploi", "Agriculture"], },
       { name: 'UGAB', domain: ["Logement", "Education", "Social", "Santé", "Formation/Emploi"], },
     ],
-    laws: ['Loi sur la reconstruction post-conflit (2020)', 'Loi sur l’aide humanitaire (2018)'],
-    domains: ['Logement', 'Social', 'Agriculture']
   },
   { 
     id: '10', 
@@ -457,8 +438,6 @@ export const regions = [
       { name: 'UGAB', domain: ["Logement", "Education", "Social", "Santé", "Formation/Emploi"], },
       { name: 'Santé Arménie', domain: ["Formation/Emploi", "Santé"], },
     ],
-    laws: ['Loi sur les familles d’accueil (2019)', 'Loi sur la protection des réfugiés (2015)'],
-    domains: ['Santé', 'Social', 'Logement']
   },
   { 
     id: '11', 
@@ -469,7 +448,5 @@ export const regions = [
       { name: 'Fonds Arménien de France', domain: ["Logement", "Education", "Social", "Formation/Emploi", "Agriculture"], },
       { name: 'UGAB', domain: ["Logement", "Education", "Social", "Santé", "Formation/Emploi"], },
     ],
-    laws: ['Loi sur l’aide humanitaire (2018)', 'Loi sur la protection des réfugiés (2015)'],
-    domains: ['Santé', 'Social', 'Education']
   },
 ];

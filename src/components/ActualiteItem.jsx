@@ -26,7 +26,7 @@ const ActualiteItem = ({ title, subtitle, date, image, video, lien }) => {
                     <div className='flex flex-col sm:flex-row items-center mt-2'>
                         <h2 className='text-xl font-semibold'>{title}</h2>
                     </div>
-                    <div className='flex flex-col'>
+                    <div className='flex flex-col mb-4'>
                         <p className='text-base text-gray-500 font-semibold mt-2'>
                             {showFullSubtitle ? subtitle : (subtitle.length > 200 ? `${subtitle.substring(0, 200)}...` : subtitle)}
                         </p>
@@ -41,16 +41,18 @@ const ActualiteItem = ({ title, subtitle, date, image, video, lien }) => {
                     </div>
                 </div>
 
-                <div className='flex justify-end mt-4'>
-                    <Link
-                        to={lien}
-                        target='_blank'
-                        className='text-white hover:underline py-2 px-4 rounded-tl-lg rounded-br-lg blue-gradient_bg'
-                        onClick={(e) => e.stopPropagation()}
-                    >
-                        Lire l'article
-                    </Link>
-                </div>
+                {lien !== "#" && (
+                    <div className='flex justify-end -mt-5'>
+                        <Link
+                            to={lien}
+                            target='_blank'
+                            className='text-white hover:underline py-2 px-4 rounded-tl-lg rounded-br-lg blue-gradient_bg'
+                            onClick={(e) => e.stopPropagation()}
+                        >
+                            Lire l'article
+                        </Link>
+                    </div>
+                )}
             </div>
         </div>
     )

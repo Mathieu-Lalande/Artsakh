@@ -24,14 +24,14 @@ const Cartography = () => {
                 <h2 className="text-lg font-semibold mb-4">
                   Information des actions menées dans cette région
                 </h2>
-                <p className="text-base mb-2">Région: {selectedRegion.name}</p>
+                <p className="text-base mb-2">Région : {selectedRegion.name}</p>
                 <p className="text-base mt-4">Associations :</p>
                 <ul className="list-disc ml-6">
                   {selectedRegion.associations.map((association, index) => (
                     <li key={index} className="text-base">
                       {/* Nom de l'association avec Tooltip */}
                       <span
-                        data-pr-tooltip={`Domaines : ${
+                        data-pr-tooltip={`Domaines d'activité : ${
                           Array.isArray(association.domain)
                             ? association.domain.join(', ')
                             : association.domain
@@ -118,10 +118,10 @@ const Cartography = () => {
           {selectedRegion ? (
             <div>
               <h2 className="text-lg font-semibold mb-4 mt-8">
-                Information sur le nombre de réfugiés
+                Information sur le nombre de déplacés
               </h2>
               <p className="text-base mt-4">
-                Nombre de réfugiés : {selectedRegion.refugees}
+                Nombre de déplacés : {selectedRegion.refugees}
               </p>
             </div>
           ) : (

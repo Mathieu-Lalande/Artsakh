@@ -40,7 +40,7 @@ const Actor = () => {
         <div className="flex-1">
           {!Array.isArray(actorData.type) || !actorData.type.includes('Collectivité territoriale') ? (
             <p className="mt-5 text-gray-500 md:w-4/5">
-              Domaine: {Array.isArray(actorData.domain) ? actorData.domain.join(', ') : actorData.domain}
+              Domaine : {Array.isArray(actorData.domain) ? actorData.domain.join(', ') : actorData.domain}
             </p>
           ) : null}
           <p className="mt-5 text-3xl font-medium">
@@ -48,24 +48,26 @@ const Actor = () => {
             {!Array.isArray(actorData.type) || !actorData.type.includes('Collectivité territoriale') ? ` depuis ${actorData.establishedDate}` : ''}
           </p>
           <p className="mt-5 text-gray-500 md:w-4/5">
-            Dirigeant: {actorData.dirigeant}
+            Dirigeant : {actorData.dirigeant}
           </p>
           <p className="mt-5 text-gray-500 md:w-4/5">
             {actorData.description}
           </p>
-          <p className="mt-5 text-gray-500 md:w-4/5">
-            Contact: {actorData.contact}
+          {!Array.isArray(actorData.type) || !actorData.type.includes('Association') ? (
+            <p className="mt-5 text-gray-500 md:w-4/5">
+              Contact : {actorData.contact}
+            </p>
+          ) : null}
+          <p className="mt-2 text-gray-500 md:w-4/5">
+            Email : <a href={`mailto:${actorData.email}`} className="text-blue-500">{actorData.email}</a>
           </p>
           <p className="mt-2 text-gray-500 md:w-4/5">
-            Email: <a href={`mailto:${actorData.email}`} className="text-blue-500">{actorData.email}</a>
-          </p>
-          <p className="mt-2 text-gray-500 md:w-4/5">
-            Téléphone: {actorData.telephone}
+            Téléphone : {actorData.telephone}
           </p>
           <hr className="my-4 sm:w-4/5" />
           <div className="flex">
             <a href={actorData.website} target="_blank" rel="noopener noreferrer" className="text-blue-500">
-              <span className="text-gray-500">Site Web de {actorData.name}: </span>{actorData.website}
+              <span className="text-gray-500">Site Web - {actorData.name}: </span>{actorData.website}
             </a>
           </div>
         </div>
